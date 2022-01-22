@@ -13,7 +13,7 @@ xmlseclibs requires PHP version 5.4 or greater. **5.6.24+ recommended for securi
 ## How to Install
 
 ```sh
-composer require "jrtec/xmlseclibs_hacienda"
+composer require "asystec/firmador"
 ```
 
 
