@@ -1,5 +1,5 @@
 {
-    "name": "jrtec/xmlseclibs_hacienda",
+    "name": "asystec/firmador",
     "description": "A PHP library for XML Security Hacienda",
     "license": "BSD-3-Clause",
     "keywords": [
