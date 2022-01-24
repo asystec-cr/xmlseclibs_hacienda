@@ -1307,7 +1307,7 @@ class XMLSecurityDSig
 
     public function loadCertInfo($pfx,$pin){
         $certInfo = [];
-        if (!$pfx = file_get_contents($pfx)) {
+        if (!$pfx = $pfx) {
             return null;
         }
         if (openssl_pkcs12_read($pfx, $key, $pin)) {
